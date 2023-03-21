@@ -1,7 +1,9 @@
 git init: se usa cuando quieres que git comience a seguir un proyecto
 git add: este comando es para darle seguimiento a X cantidad de archivos
-	/ git add (nombre del archivo.tipo de archivo) ejem git add Notas de GIT.txt
+	/ git add (nombre del archivo.tipo de archivo) ejem git add NotasGIT.txt
 git commit: este traslada los archivos al repositorio local
+	/usar este comando cada ves que se crear un cambio en el documento IMPORTANTE: antes de usar el commit, se tiene que piner el comando 		add, solo SI el documento ya a sido subido y tratas de hacer una nueva snapshot
 Leer todos los comando en la paginade git (documentacion)
 git status -s: es para saber cuales son los archivos que estan disponibles para ser rastrados
 	/ adelante de los nombres de los archivos estan algunos simbolos, eso significan el estado del archivo
+	/con este comando solo aparece los archivos que no estan subidos con git commit
